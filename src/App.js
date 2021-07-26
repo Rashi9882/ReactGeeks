@@ -1,16 +1,11 @@
-//import React from 'react'
-
+import React from 'react'
+import Restaurant from './component/Basics/Restaurant';
 const App = () => {
   return (
     <div>
-      <MyName />
-      Hello World!
+      <Restaurant />
     </div>
   )
 }
-
-const MyName = () => {
-  return <h1>Development</h1>
-};
 
 export default App
